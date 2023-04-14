@@ -802,6 +802,12 @@ properly.
 	text-align: center !important;
 }
 
-
+/* Lottie Center */
+.center {
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+   width: 50%;
+ }
 
 

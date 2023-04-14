@@ -8,7 +8,7 @@
    TOC:
    a. General Styles
    b. Header Styles
-   c. About Section
+   c. download Section
    d. Resume Section
    e. Portfolio Section
    f. Call To Action Section
@@ -178,49 +178,49 @@ ul#nav li.current a { color: #fe6928; }
 
 
 /* ------------------------------------------------------------------ */
-/* c. About Section
+/* c. download Section
 /* ------------------------------------------------------------------ */
 
-#about {
-   background: #000524;
+#download {
+   background: #ffffff;
    padding-top: 96px;
    padding-bottom: 66px;
    overflow: hidden;
 }
 
-#about a, #about a:visited  { color: #fff; }
-#about a:hover, #about a:focus { color: #0762f9; }
+#download a, #download a:visited  { color: #fff; }
+#download a:hover, #download a:focus { color: #0762f9; }
 
-#about h2 {
+#download h2 {
    font: 22px/30px 'opensans-bold', sans-serif;
-   color: #fff;
+   color: #000000;
    margin-bottom: 12px;
 }
-#about p {
+#download p {
    line-height: 30px;
-   color: #ccc;
+   color: #000000;
 }
-#about .profile-pic {
+#download .profile-pic {
    position: relative;
    width: 120px;
    height: 120px;
    border-radius: 100%;
 }
-#about .contact-details { width: 41.66667%; }
-#about .download {
+#download .contact-details { width: 41.66667%; }
+#download .download {
    width: 58.33333%;
    padding-top: 6px;
 }
-#about .main-col { padding-right: 5%; }
-#about .download .button {
+#download .main-col { padding-right: 5%; }
+#download .download .button {
    margin-top: 6px;
    background: #444;
 }
-#about .download .button:hover {
+#download .download .button:hover {
    background: #fff;
    color: #2B2B2B;
 }
-#about .download .button i {
+#download .download .button i {
    margin-right: 15px;
    font-size: 20px;
 }
@@ -1017,7 +1017,7 @@ footer .social-links li:first-child { margin-left: 0; }
    margin-right: 15px;
 }
 .project-btn{
-   background-color: #1abc9c !important;
+   background-color: #ff0000 !important;
 }
 .github-btn{
    background-color: #34495e !important;
