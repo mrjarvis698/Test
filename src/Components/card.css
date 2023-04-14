@@ -1,0 +1,43 @@
+.cards-container {
+    display: flex;
+    justify-content: center;    
+    flex-wrap: wrap;    
+}
+  
+.card {
+    width: 300px;
+    height: 200px;
+    background-color: lightgray;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    overflow: hidden;
+    transition: height 0.5s ease-in-out;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.card h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+    
+.card p {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+    
+.expanded {
+    height: 400px;
+}
+  
+ 
+@media (max-width: 768px) {
+    .card {
+        width: 100%;
+    }
+}

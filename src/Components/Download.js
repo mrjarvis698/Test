@@ -19,8 +19,7 @@ class Download extends Component {
       <section id="download">
         <Fade duration={1000}>
           <div className="row">
-            
-          <div className="nine columns main-col">
+            <div className="nine columns main-col">
               <div className="three columns">
                 <Lottie className="center" animationData={drnko_logo} style={style} loop={true}/>
               </div>

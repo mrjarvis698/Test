@@ -1,0 +1,87 @@
+#card_base {
+    background: #ffffff;
+    padding-top: 276px;
+    padding-bottom: 197px;
+    overflow: hidden;
+ }
+ 
+ #card_base a, #card_base a:visited  { color: #fff; }
+ #card_base a:hover, #card_base a:focus { color: #0762f9; }
+ 
+ #card_base h2 {
+    font: 22px/30px 'opensans-bold', sans-serif;
+    color: #000000;
+    margin-bottom: 12px;
+ }
+ #card_base p {
+    line-height: 30px;
+    color: #000000;
+ }
+ #card_base .profile-pic {
+    position: relative;
+    width: 120px;
+    height: 120px;
+    border-radius: 100%;
+ }
+ #card_base .contact-details { width: 41.66667%; }
+ #card_base .download {
+    width: 58.33333%;
+    padding-top: 6px;
+ }
+ #card_base .main-col { padding-right: 5%; }
+ #card_base .download .button {
+    margin-top: 6px;
+    background: #444;
+ }
+ #card_base .download .button:hover {
+    background: #fff;
+    color: #2B2B2B;
+ }
+ #card_base .download .button i {
+    margin-right: 15px;
+    font-size: 20px;
+ }
+
+.cards-container {
+    display: flex;
+    justify-content: center;    
+    flex-wrap: wrap;    
+}
+  
+.card {
+    width: 300px;
+    height: 200px;
+    background-color: #f6c33b;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    overflow: hidden;
+    transition: height 0.5s ease-in-out;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.card h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+    
+.card p {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+    
+.expanded {
+    height: 400px;
+}
+  
+ 
+@media (max-width: 768px) {
+    .card {
+        width: 100%;
+    }
+}
