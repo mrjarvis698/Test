@@ -49,12 +49,12 @@
 }
   
 .card {
-    width: 300px;
-    height: 200px;
-    background-color: #f6c33b;
-    padding: 20px;
+    width: 177px;
+    height: 273px;
+    background-color: #ffffff;
+    padding: 0px;
     margin: 20px;
-    border-radius: 5px;
+    border-radius: 0px;
     cursor: pointer;
     overflow: hidden;
     transition: height 0.5s ease-in-out;
@@ -76,12 +76,6 @@
 }
     
 .expanded {
-    height: 400px;
+    height: 650px;
 }
   
- 
-@media (max-width: 768px) {
-    .card {
-        width: 100%;
-    }
-}

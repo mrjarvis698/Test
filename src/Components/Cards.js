@@ -1,5 +1,8 @@
 import React, { Component } from "react";
 import "./Cards.css";
+import usercard from "./Images/User.png"
+import retailercard from "./Images/Retailer.png"
+import companiescard from "./Images/Companies.png"
 
 class Cards extends Component {
   state = {
@@ -49,6 +52,7 @@ class Cards extends Component {
           
           <div className={`card ${usersExpanded ? 'expanded' : ''}`} onClick={() => this.handleuserCardClick('Users')}>
             <h2>Users</h2>
+            <img src={usercard} alt="Users"/>
             {usersExpanded && (
               <>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc lacinia ex id sagittis dignissim. Praesent et ipsum eget odio laoreet faucibus eu non est.</p>
@@ -58,6 +62,7 @@ class Cards extends Component {
           </div>
           <div className={`card ${retailersExpanded ? 'expanded' : ''}`} onClick={() => this.handleretailerCardClick('Retailers')}>
             <h2>Retailers</h2>
+            <img src={retailercard} alt="Users"/>
             {retailersExpanded && (
               <>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc lacinia ex id sagittis dignissim. Praesent et ipsum eget odio laoreet faucibus eu non est.</p>
@@ -66,7 +71,8 @@ class Cards extends Component {
             )}
           </div>
           <div className={`card ${drinkoExpanded  ? 'expanded' : ''}`} onClick={() => this.handledrinkoCardClick('Drinko')}>
-            <h2>Drinko</h2>
+            <h2>Liquor Co.</h2>
+            <img src={companiescard} alt="Users"/>
             {drinkoExpanded && (
               <>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc lacinia ex id sagittis dignissim. Praesent et ipsum eget odio laoreet faucibus eu non est.</p>
