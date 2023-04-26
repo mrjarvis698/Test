@@ -6,7 +6,6 @@ import Header from "./Components/Header";
 import Footer from "./Components/Footer";
 import Download from "./Components/Download";
 import Cards from "./Components/Cards";
-import Contact from "./Components/Contact";
 
 class App extends Component {
   constructor(props) {
@@ -45,7 +44,6 @@ class App extends Component {
         <Header data={this.state.resumeData.main} />
         <Cards data={this.state.resumeData.resume} />
         <Download data={this.state.resumeData.main} />
-        <Contact data={this.state.resumeData.main} />
         <Footer data={this.state.resumeData.main} />
       </div>
     );

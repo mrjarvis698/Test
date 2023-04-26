@@ -928,10 +928,13 @@ call-to-action .button {
 footer {
    padding-top: 48px;
    margin-bottom: 48px;
-   color: #303030;
+   color: #999999;
    font-size: 14px;
    text-align: center;
    position: relative;
+}
+li.re {
+   font-size: 15px;
 }
 
 footer a, footer a:visited { color: #525252; }

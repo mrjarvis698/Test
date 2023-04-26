@@ -49,6 +49,7 @@ class Header extends Component {
             </li>
           </ul>
         </nav>
+        
 
         <div className="row banner">
           <div className="banner-text">
