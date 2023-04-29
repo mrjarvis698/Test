@@ -55,8 +55,12 @@ class Cards extends Component {
             <img src={usercard} alt="Users"/>
             {usersExpanded && (
               <>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc lacinia ex id sagittis dignissim. Praesent et ipsum eget odio laoreet faucibus eu non est.</p>
-                <p>Aliquam porttitor, est non pulvinar congue, neque nulla commodo magna, sit amet luctus justo enim sed urna.</p>
+                <p>Scan any beverage bill anywhere.</p>
+                <p>Get rewards for the drinks consumed.</p>
+                <p>Redeem the rewards for your favourite vouchers for free.</p>
+                <p> </p>
+                <p> </p>
+                
               </>
             )}
           </div>
@@ -65,8 +69,14 @@ class Cards extends Component {
             <img src={retailercard} alt="Users"/>
             {retailersExpanded && (
               <>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc lacinia ex id sagittis dignissim. Praesent et ipsum eget odio laoreet faucibus eu non est.</p>
-                <p>Aliquam porttitor, est non pulvinar congue, neque nulla commodo magna, sit amet luctus justo enim sed urna.</p>
+                <p>List your establishment for free.</p>
+                <p>Let users search for your bar.</p>
+                <p>Drive traffic and higher conversion.</p>
+                <p> </p>
+                <p> </p>
+                <p> </p>
+                <p> </p>
+                <p> </p>
               </>
             )}
           </div>
@@ -75,8 +85,8 @@ class Cards extends Component {
             <img src={companiescard} alt="Users"/>
             {drinkoExpanded && (
               <>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc lacinia ex id sagittis dignissim. Praesent et ipsum eget odio laoreet faucibus eu non est.</p>
-                <p>Aliquam porttitor, est non pulvinar congue, neque nulla commodo magna, sit amet luctus justo enim sed urna.</p>
+                <p>Maximise your marketing spend by targeting your customers directly.</p>
+                <p>Use Drnko to generate reviews and user feedback about your products.</p>
               </>
             )}
           </div>
